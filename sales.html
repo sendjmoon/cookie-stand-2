@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Sales Info - Smokin' Salmon Cookies </title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="header-title">
+    <h1> SMOKIN' SALMON COOKIES </h1>
+    <h4> CONTACT US </h4>
+  </div>
+
+  <div class="breaker"></div>
+
+  <nav>
+    <a href="index.html" class="nav-button"> HOME </a> |
+    <a href="about.html" class="nav-button"> ABOUT </a> |
+    <a href="contact.html" class="nav-button"> CONTACT </a>
+  </nav>
+
+  <div class="breaker"></div>
+
+  <main>
+  <div id="form-box">
+    <form id="store-form">
+    <fieldset id="fieldset">
+    <label>Store Name</label>
+      <input type="text" name="store" class="input" />
+    <label>Min Cust.</label>
+      <input type="text" name="min" class="input-num" />
+    <label>Max Cust.</label>
+      <input type="text" name="max" class="input-num" />
+    <label>Avg Cookies Per Cust.</label>
+      <input type="text" name="avg" class="input-num" />
+    <button id="submit-button" type="submit">SUBMIT</button>
+    </fieldset>
+    </form>
+  </div>
+
+  <div id="table-figure">
+  <table id="table-results">
+    <thead>
+      <tbody id="append-stores">
+        <tr></tr>
+      </tbody>
+    </thead>
+  </table>
+  </div>
+</main>
+  <script src = "app.js"></script>
+</body>
+
+</html>
