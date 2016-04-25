@@ -2,7 +2,7 @@ body {
   background-color: #3d3d3d;
   font-size: 16px;
   color: black;
-  width: 900px;
+  width: 98%;
   height: 100%;
   display: flex;
   margin: 0 auto;
@@ -88,7 +88,86 @@ a:hover {
 }
 
 main {
+  color: white;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
+}
+
+.main-box {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 40%;
+  border: 1px solid black;
+}
+
+.right {
+  width: 40%;
+  border: 1px solid black;
+}
+
+.article-box {
+  /*background-color: khaki;*/
+  /*border: 1px dotted black;*/
+  width: 100%;
+  background-color: #746444;
+  border-left: 1px dotted black;
+  border-top: 1px dotted black;
+  padding: 10px;
+  box-shadow: 3px 3px 2px black;
+}
+
+.article-line {
+  width: 98%;
+  height: 2px;
+  background-color: maroon;
+}
+
+.article-box h3 {
+  font-family: arial;
+}
+
+.article-box p {
+  font-family: arial;
+  letter-spacing: 1.5px;
+  text-shadow: none;
+}
+
+.bottom-box {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#chinook-img {
+  width: 45%;
+  margin: 5px;
+  margin-left: 10px;
+  max-width: 200px;
+  border: 1px dotted black;
+  float: right;
+}
+
+#frost-cookie-img {
+  width: 35%;
+  margin: 5px;
+  margin-left: 5px;
+  max-width: 200px;
+  border: 1px dotted black;
+  float: right;
+}
+
+#family-img {
+  width: 100%;
+  border: 1px dotted black;
+}
+
+#cutter-img {
+  width: 100%;
 }
