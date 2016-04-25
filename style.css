@@ -24,6 +24,7 @@ body {
   font-size: 50px;
   text-shadow: 2px 2px 2px black;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 .header-title h4 {
@@ -97,19 +98,18 @@ main {
 .main-box {
   width: 100%;
   padding-top: 30px;
+  padding-bottom: 50px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 }
 
 .left {
   width: 40%;
-  border: 1px solid black;
 }
 
 .right {
   width: 40%;
-  border: 1px solid black;
 }
 
 .article-box {
