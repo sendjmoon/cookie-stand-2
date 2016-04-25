@@ -54,7 +54,6 @@ main p {
   background-color: maroon;
   width: 100%;
   height: 3px;
-  /*border: 1px solid black;*/
 }
 
 nav {
@@ -90,38 +89,59 @@ a:hover {
 
 main {
   color: white;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
 }
 
 .main-box {
-  width: 100%;
+  width: 90%;
   padding-top: 30px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 }
 
 .left {
   width: 40%;
-  border: 1px solid black;
 }
 
 .right {
   width: 40%;
-  border: 1px solid black;
+}
+
+.left-contact {
+  width: 25%;
+}
+
+.right-contact {
+  width: 60%;
 }
 
 .article-box {
-  /*background-color: khaki;*/
-  /*border: 1px dotted black;*/
   width: 100%;
   background-color: #746444;
   border-left: 1px dotted black;
   border-top: 1px dotted black;
   padding: 10px;
   box-shadow: 3px 3px 2px black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.article-box h3 {
+  font-family: arial;
+  text-align: center;
+}
+
+.article-box p {
+  font-family: arial;
+  letter-spacing: 1.5px;
+  margin-left: 5px;
+  text-shadow: none;
 }
 
 .article-line {
@@ -130,20 +150,21 @@ main {
   background-color: maroon;
 }
 
-.article-box h3 {
-  font-family: arial;
-}
-
-.article-box p {
-  font-family: arial;
-  letter-spacing: 1.5px;
-  text-shadow: none;
-}
-
 .bottom-box {
   width: 90%;
   display: flex;
   justify-content: space-around;
+}
+
+.contact-info {
+  padding: 0;
+}
+
+.contact-info li {
+  font-family: arial;
+  font-size: 14px;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 #chinook-img {
@@ -170,7 +191,13 @@ main {
 }
 
 #cutter-img {
-  width: 100%;
+  width: 25%;
+  border: 1px dotted black;
+}
+
+#shirt-img {
+  width: 25%;
+  border: 1px dotted black;
 }
 
 /* SALES PAGE */
