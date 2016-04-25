@@ -34,6 +34,7 @@ body {
 }
 
 main {
+  color: white;
   display: flex;
   align-items: center;
 }
@@ -170,4 +171,76 @@ main {
 
 #cutter-img {
   width: 100%;
+}
+
+/* SALES PAGE */
+#form-box {
+  width: 100%;
+  font-family: arial;
+  font-size: 14px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+#store-form {
+  border: none;
+}
+
+#fieldset {
+  margin-top: 20px;
+  border: none;
+}
+
+.input {
+  border: none;
+  font-size: 14px;
+}
+
+.input-num {
+  border: none;
+  width: 25px;
+  font-size: 14px;
+}
+
+#table-figure {
+  font-family: arial;
+  font-size: 14px;
+}
+
+#name-title {
+  width: 100px;
+  margin: 3px;
+}
+
+#hours-header {
+  width: 40px;
+  margin: 3px;
+  text-align: center;
+}
+
+#total-header {
+  width: 40px;
+  margin: 3px;
+  text-align: center;
+}
+
+#store-name {
+  text-align: center;
+  vertical-align: center;
+}
+
+#td-cookies {
+  background-color: #746444;
+  width: 40px;
+  padding: 3px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#td-total {
+  background-color: #746555;
+  width: 40px;
+  border: 1px solid black;
+  text-align: center;
 }
